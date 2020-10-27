@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
+</head>
+<body class="body">
+    <div class="container">
+        <h2>TIP CALCULATOR</h2>
+        <div class="main-content">
+            <p>How much was your bill?</p>
+            <div class="bill-amount">
+                <span>$</span> <input placeholder="Bill Amount" />
+            </div>
+            <p>How was your service?</p>
+            <select placeholder="-- Choose An Option --">
+                <option>30% - Outstanding</option>
+                <option>20% - Good</option>
+                <option>15% - It was OK</option>
+                <option>10% - Bad</option>
+                <option>5% - Terrible</option>
+            </select>
+            <p>How many people are sharing the bill?</p>
+            <div class="sharing-bill">
+                <input placeholder="Number of people" /><span>people</span>
+            </div>           
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-image: linear-gradient(to right, blue, red);
+    
+}
+
+.container {
+    text-align: center;
+    color: white;
+    margin-top: 225px;
+    font-family: 'Krona One';
+}
+
+.container h2 {
+    padding: 5px 0;
+}
+
+.container p {
+    padding: 5px 0;
+}
+
+.sharing-bill {
+    padding: 5px 0;
+}
+
+.bill-amount {
+    padding: 5px 0;
+}
+
+select {
+    padding: 5px 0;
+}
