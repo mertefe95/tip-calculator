@@ -39,3 +39,63 @@ body {
 select {
     padding: 5px 0;
 }
+
+.btn-div {
+    padding: 10px 0;
+}
+
+
+.btn {
+    border-color: grey;
+    border: 1px;
+    border-radius: 8px;
+    background-color: black;
+    padding: 3px 6px;
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-family: 'Righteous';
+    letter-spacing: 3px;
+}
+
+
+#totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+}
+
+
+#totalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+
+#totalTip sup {
+    font-size: 20px;
+    top: -18px;
+}
+
+#totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+.first-p {
+    padding-top: 200px;
+}
+
+.main-content > p {
+    padding-top: 30px;
+}
+
+.btn-div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
